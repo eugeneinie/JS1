@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./img/designbyinie.png">
+    <title>JavaScript Strings</title>
+</head>
+<body>
+    <h1>JavaScript Strings</h1>
+    <h2>The .toLowerCase() Method</h2>
+
+    <p>.toLowerCase() converts a string to lowercase letters:</p>
+    <p id="lowercase"></p>
+
+    <h2>The .upperCase() Method</h2>
+    <p>.upperCase() converts a string to uppercase letters</p>
+    <p id="uppercase"></p>
+
+    <h2>The .replace() Method</h2>
+    <p>
+        .replace() searches a string for a value, and returns a new string with the specified value(s) replaced:
+    </p>
+    <p id="repl">Visit Rwanda & Kenya</p>
+
+    <h2>The .replaceAll() Method</h2>
+    <P>
+        .replaceAll() method searches a string for a value or regular expression and returns a new string with all the value(s) replaced but it does not change the original string
+    </P>
+    <p>ES2021 introduced the string method .replaceAll()</p>
+    <p id="replA"></p>
+
+    <h2>The .slice() Method</h2>
+    <p>.slice() extracts a part of a string and returns the extracted part:</p>
+    <p id="slc"></p>
+
+    <h2>The .split() Method</h2>
+    <p>.split() splits a string into an array of substrings, and returns the array</p>
+    <p id="spl"></p>
+
+    <h2>The .charAt() Method</h2>
+    <p>.charAt() returns the character at a specified index (position) in a string.</p>
+    <p>Get the first character in a string:</p>
+    <p id="char"></p>
+
+    <h2>The .charCodeAt() Method</h2>
+    <p>This method returns the character at a specified index (position) in a string.</p>
+    <p>Get the unicode of the first character in a string:</p>
+    <p id="charC"></p>
+
+    <h2>The .concat() Method</h2>
+    <p>The .concat() method joins two or more strings.</p>
+    <p>Join 'Sea' and 'food'</p>
+    <p id="conc"></p>
+
+    <h2>The .startsWith Method</h2>
+    <p>.startsWith() returns true if a string starts with a specified string:</p>
+    <p id="strW"></p>
+
+    <h2>The .endsWith() Method</h2>
+    <p>.endsWith() returns true if a string ends with a specified string, otherwise false.</p>
+    <p>Check if 'Hello World' ends with 'World'</p>
+    <p id="endsW"></p>
+
+    <h2>The .includes() Method</h2>
+    <p>Find 'cohort 6B5':</p>
+    <p id="incl"></p>
+    <p>PS: .includes() is not supported in Internet Explorer.</p>
+
+    <h2>.substring() Method</h2>
+    <p>The .substring method extracts a part of a string and returns the extracted parts in a new string:</p>
+    <p>PS: If you you omit the 2nd parameter, the .subtract() will slice out the rest of the initial part of the string!</p>
+    <p id="substrg"></p>
+
+    <h2>.substr() Method</h2>
+    <P> 
+        This method extracts a part of a string and returns the extracted part(s) in a new string (but the second parameter specifies the length of the extracted part)
+    </P>
+    <p>PS: If you you omit the 2nd parameter, the .subtract() will slice out the rest of the initial part of the string!</p>
+    <p>PPS: If the 1st parameter is -ve, the count will start from the end!</p>
+    <P id="substr"></P>
+
+    <h2>.trim() Method</h2>
+    <p>This method removes whitespace from both sides of a string:</p>
+    <p id="tr"></p>
+
+    <h2>.trimStart() Method</h2>
+    <p>This method removes whitespace only from the start of a string</p>
+    <p id="trS"></p>
+
+    <h2>.trimEnd() Method</h2>
+    <p>This method removes whitespace only from the end of a string</p>
+    <p id="trE"></p>
+    <p></p>
+    
+    <h2>.padStart() Method</h2>
+    <p>This method pads a string from the start, with another string (multiple times) until it reaches a given length</p>
+    <p id="pdS"></p>
+
+    <h2>.padEnd() Method</h2>
+    <p>This method pads a string from the end, with another string (multiple times) until it reaches a given length</p>
+    <p id="pdE"></p>
+
+    <footer>
+        &lt;&lt;&lt; &copy; <a href="#"><abbr title="designbyinie Technologies">dbiTech</abbr></a> &gt;&gt;&gt;
+    </footer>
+</body>
+<script src="./js/main.js"></script>
+</html>
